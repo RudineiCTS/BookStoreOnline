@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MyFirstApp.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MyFirstApp.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d914a14aaa2082a90936d44db9fbbaaee6323a2")]
-[assembly: System.Reflection.AssemblyProductAttribute("MyFirstApp.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MyFirstApp.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("MyFirstApp.Entities")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MyFirstApp.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

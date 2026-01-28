@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstApp.Application.UseCases.Books.Register;
+using MyFirstApp.Application.UseCases.Books.Update;
 using MyFirstApp.Communication.Request;
 using MyFirstApp.Communication.Response;
-using MyFirstApp.Entities;
 
 namespace MyFirstApp.Controllers
 {
@@ -10,24 +11,16 @@ namespace MyFirstApp.Controllers
     {
         [HttpPost]
         [ProducesResponseType(typeof(ResponseRegisterBookJson), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult Create([FromBody] RequestRegisterBookJson book)
-        {
-            var newBook = new Book
-            {
-                Title = book.Title,
-                Author = book.Author,
-                //Genre = book.Genre,
-                Price = book.Price,
-                Stock = book.Stock
-            };
-
-            AddBookToStore(newBook);
-
-            return Ok(newBook);
+        {          
+            var retorno = new RegisterBook().Execute(book);
+            return Ok(retorno);
         }
 
         [HttpGet]
         [ProducesResponseType(typeof(List<RequestRegisterBookJson>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult GetAll()
         {
             var books = GetBooksFromStore();
@@ -37,20 +30,22 @@ namespace MyFirstApp.Controllers
         }
         [HttpGet]        
         [ProducesResponseType(typeof(RequestRegisterBookJson), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult GetBookById([FromRoute] Guid id)
-        {
-            RequestRegisterBook book = GetUniqueBookInStore(id);
-            return Ok(book);
+        {            
+            return Ok();
         }
         [HttpPut]        
         [ProducesResponseType(typeof(RequestRegisterBookJson), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult UpdateBook([FromRoute] Guid id, [FromBody] RequestRegisterBookJson book)
         {
-            EditBookInStore(id, book);
-            return Ok();
+            var retorno = new UpdateBook().Execute(id, book);
+            return Ok(retorno);
         }
         [HttpDelete]        
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult DeleteBook([FromRoute] Guid id)
         {
 

@@ -1,7 +1,12 @@
 ﻿namespace MyFirstApp.Communication.Enum
 {
-    internal enum GenreType
+    public enum GenreType
     {
-        none,
+        romance,
+        comedian,
+        adventure,
+        horror,
+        poetry
     }
+
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj": {}
+    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj": {
+    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj",
-        "projectName": "MyFirstApp.Communication",
-        "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj",
+        "projectName": "MyFirstApp.Entities",
+        "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj",
         "packagesPath": "C:\\Users\\costa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\obj\\",
+        "outputPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
