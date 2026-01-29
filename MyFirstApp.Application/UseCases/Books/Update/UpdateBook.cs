@@ -2,6 +2,7 @@
 using MyFirstApp.Communication.Request;
 using MyFirstApp.Communication.Response;
 using MyFirstApp.Entities.Book;
+using MyFirstApp.Middleware;
 
 namespace MyFirstApp.Application.UseCases.Books.Update
 {
@@ -17,7 +18,7 @@ namespace MyFirstApp.Application.UseCases.Books.Update
                 {
                     "Book not found."
                 };
-                throw new Exception("A book with the same title and author already exists.");
+                throw new NotFoundException("A book with the same title and author already exists.");
             }
             var index = MockBooks.BooksToStore.IndexOf(book);
             var BookToUpdate = new BookEntity

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstApp.Application.UseCases.Books.FindUnique;
 using MyFirstApp.Application.UseCases.Books.Register;
 using MyFirstApp.Application.UseCases.Books.Update;
 using MyFirstApp.Communication.Request;
@@ -31,9 +32,13 @@ namespace MyFirstApp.Controllers
         [HttpGet]        
         [ProducesResponseType(typeof(RequestRegisterBookJson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status404NotFound)]
         public IActionResult GetBookById([FromRoute] Guid id)
-        {            
+        {
+
+            var retorno = new FindUnique().Execute(id);
             return Ok();
+
         }
         [HttpPut]        
         [ProducesResponseType(typeof(RequestRegisterBookJson), StatusCodes.Status200OK)]
