@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyFirstApp.Communication\MyFirstApp.Communication.csproj" />
+    <ProjectReference Include="..\MyFirstApp.Entities\MyFirstApp.Entities.csproj" />
   </ItemGroup>
 
 </Project>

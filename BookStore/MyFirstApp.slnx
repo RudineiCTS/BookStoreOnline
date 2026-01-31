@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../MyFirstApp.Application/MyFirstApp.Application.csproj" Id="bc97cd41-f261-40e6-bfe4-898ee06f6ca9" />
   <Project Path="../MyFirstApp.Communication/MyFirstApp.Communication.csproj" Id="7a3c1868-929f-42f5-97cd-77e89ba4c747" />
+  <Project Path="../MyFirstApp.Entities/MyFirstApp.Entities.csproj" Id="ce18afb2-2ee3-423e-afe5-11a96cd0d29e" />
   <Project Path="MyFirstApp.csproj" />
 </Solution>
