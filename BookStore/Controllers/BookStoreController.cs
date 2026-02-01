@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstApp.Application.UseCases.Books.Delete;
+using MyFirstApp.Application.UseCases.Books.FindAll;
 using MyFirstApp.Application.UseCases.Books.FindUnique;
 using MyFirstApp.Application.UseCases.Books.Register;
 using MyFirstApp.Application.UseCases.Books.Update;
@@ -19,17 +21,17 @@ namespace MyFirstApp.Controllers
             return Ok(retorno);
         }
 
-        [HttpGet]
+        [HttpGet]        
         [ProducesResponseType(typeof(List<RequestRegisterBookJson>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult GetAll()
         {
-            var books = GetBooksFromStore();
+            var books = new FindAll().Execute();
 
             return Ok(books);
         
         }
-        [HttpGet]        
+        [HttpGet("{id}")]        
         [ProducesResponseType(typeof(RequestRegisterBookJson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status404NotFound)]
@@ -40,7 +42,7 @@ namespace MyFirstApp.Controllers
             return Ok();
 
         }
-        [HttpPut]        
+        [HttpPut("{id}")]        
         [ProducesResponseType(typeof(RequestRegisterBookJson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult UpdateBook([FromRoute] Guid id, [FromBody] RequestRegisterBookJson book)
@@ -48,32 +50,21 @@ namespace MyFirstApp.Controllers
             var retorno = new UpdateBook().Execute(id, book);
             return Ok(retorno);
         }
-        [HttpDelete]        
+        [HttpDelete("{id}")]        
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status400BadRequest)]
         public IActionResult DeleteBook([FromRoute] Guid id)
         {
 
-            DeleteBookInStore(id);
+            var retorno = new DeleteBookInStore().Execute(id);
+            if(!retorno)
+            {
+                return BadRequest(new ResponseErrorsJson
+                {
+                    Errors = new List<string> { "Não foi possível deletar o livro." }
+                });
+            }
             return Ok("Book" + id + "Deletado");
         }
     }
 }
-
-
-//Deve ser possível criar um livro;
-//id            GUID	    Sim	    Gerado automaticamente pelo sistema.
-//title	 *      string	    Sim	    Deve ter entre 2 e 120 caracteres.
-//author *	    string	    Sim	    Deve ter entre 2 e 120 caracteres.
-//genre	        string	    Sim	    Deve ser um dos valores válidos: ficção, romance, mistério, ....
-//price	        decimal	    Sim	    Deve ser maior ou igual a 0.
-//stock	        int	        Sim	    Deve ser maior ou igual a 0.
-
-
-//Deve ser possível visualizar todos os livros que foram criados;
-
-//Deve ser possível visualizar um livro em específico;
-
-//Deve ser possível editar informações de um livro;
-
-//Deve ser possível excluir um livro.

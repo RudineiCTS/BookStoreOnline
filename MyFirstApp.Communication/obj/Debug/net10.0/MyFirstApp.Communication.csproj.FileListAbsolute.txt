@@ -1,0 +1,12 @@
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\bin\Debug\net10.0\MyFirstApp.Communication.deps.json
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\bin\Debug\net10.0\MyFirstApp.Communication.dll
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\bin\Debug\net10.0\MyFirstApp.Communication.pdb
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.AssemblyInfoInputs.cache
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.AssemblyInfo.cs
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.csproj.CoreCompileInputs.cache
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.sourcelink.json
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.dll
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\refint\MyFirstApp.Communication.dll
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\MyFirstApp.Communication.pdb
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Communication\obj\Debug\net10.0\ref\MyFirstApp.Communication.dll

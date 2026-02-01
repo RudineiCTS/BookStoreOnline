@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj": {}
+    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj": {
+    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj",
         "projectName": "MyFirstApp.Application",
-        "projectPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj",
-        "packagesPath": "C:\\Users\\rudinei.cferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\obj\\",
+        "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\MyFirstApp.Application.csproj",
+        "packagesPath": "C:\\Users\\costa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rudinei.cferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj": {
-                "projectPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj"
+              "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj": {
+                "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj"
               },
-              "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj": {
-                "projectPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj"
+              "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj"
               }
             }
           }
@@ -350,20 +350,20 @@
         }
       }
     },
-    "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj": {
+    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj",
         "projectName": "MyFirstApp.Communication",
-        "projectPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj",
-        "packagesPath": "C:\\Users\\rudinei.cferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\obj\\",
+        "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\MyFirstApp.Communication.csproj",
+        "packagesPath": "C:\\Users\\costa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rudinei.cferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -689,20 +689,20 @@
         }
       }
     },
-    "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj": {
+    "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj",
         "projectName": "MyFirstApp.Entities",
-        "projectPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj",
-        "packagesPath": "C:\\Users\\rudinei.cferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rudinei.cferreira\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\obj\\",
+        "projectPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\MyFirstApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\costa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\costa\\source\\repos\\BookStoreOnline\\MyFirstApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rudinei.cferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

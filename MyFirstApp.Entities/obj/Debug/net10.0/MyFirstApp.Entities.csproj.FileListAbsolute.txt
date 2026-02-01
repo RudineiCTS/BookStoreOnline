@@ -1,0 +1,12 @@
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\bin\Debug\net10.0\MyFirstApp.Entities.deps.json
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\bin\Debug\net10.0\MyFirstApp.Entities.dll
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\bin\Debug\net10.0\MyFirstApp.Entities.pdb
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.AssemblyInfoInputs.cache
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.AssemblyInfo.cs
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.sourcelink.json
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.dll
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\refint\MyFirstApp.Entities.dll
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\MyFirstApp.Entities.pdb
+C:\Users\costa\source\repos\BookStoreOnline\MyFirstApp.Entities\obj\Debug\net10.0\ref\MyFirstApp.Entities.dll

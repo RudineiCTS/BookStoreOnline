@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MyFirstApp.Application/1.0.0": {
+        "dependencies": {
+          "MyFirstApp.Communication": "1.0.0",
+          "MyFirstApp.Entities": "1.0.0"
+        },
+        "runtime": {
+          "MyFirstApp.Application.dll": {}
+        }
+      },
+      "MyFirstApp.Communication/1.0.0": {
+        "runtime": {
+          "MyFirstApp.Communication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MyFirstApp.Entities/1.0.0": {
+        "runtime": {
+          "MyFirstApp.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyFirstApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyFirstApp.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyFirstApp.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
